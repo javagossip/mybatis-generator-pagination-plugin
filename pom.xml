@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>info.javagossip.mybatis.generator</groupId>
 	<artifactId>mybatis-generator-pagination-plugin</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>mybatis-generator-pagination-plugin</name>
 	<description>The mybatis pagination plugin</description>
 
@@ -15,7 +14,7 @@
 		<connection>scm:git:https://github.com/javagossip/mybatis-generator-pagination-plugin.git</connection>
 		<developerConnection>scm:git:https://github.com/javagossip/mybatis-generator-pagination-plugin.git</developerConnection>
 		<url>scm:git:https://github.com/javagossip/mybatis-generator-pagination-plugin.git</url>
-		<tag>HEAD</tag>
+		<tag>mybatis-generator-pagination-plugin-0.0.1</tag>
 	</scm>
 
 	<dependencies>
