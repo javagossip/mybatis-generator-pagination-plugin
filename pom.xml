@@ -47,34 +47,31 @@
 
 	<repositories>
 		<repository>
-			<id>central</id>
-			<name>Maven2 Central Repository</name>
-			<layout>default</layout>
-			<url>http://repo1.maven.org/maven2</url>
-		</repository>
-		<repository>
-			<id>unidal.releases</id>
-			<url>http://unidal.org/nexus/content/repositories/releases/</url>
+			<id>f2time_repo</id>
+			<name>f2time maven私服</name>
+			<url>http://182.92.173.117:8081/nexus/content/groups/public</url>
 		</repository>
 	</repositories>
+
 	<pluginRepositories>
 		<pluginRepository>
-			<id>central</id>
-			<url>http://repo1.maven.org/maven2</url>
-		</pluginRepository>
-		<pluginRepository>
-			<id>unidal.releases</id>
-			<url>http://unidal.org/nexus/content/repositories/releases/</url>
+			<id>f2time_repo</id>
+			<name>f2time maven私服</name>
+			<url>http://182.92.173.117:8081/nexus/content/groups/public</url>
 		</pluginRepository>
 	</pluginRepositories>
+
 	<distributionManagement>
 		<repository>
 			<id>releases</id>
-			<url>${releases.repo}</url>
+			<name>正式颁发发布仓库</name>
+			<url>http://182.92.173.117:8081/nexus/content/repositories/releases</url>
 		</repository>
+
 		<snapshotRepository>
 			<id>snapshots</id>
-			<url>${snapshots.repo}</url>
+			<name>开发版本发布仓库</name>
+			<url>http://182.92.173.117:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
